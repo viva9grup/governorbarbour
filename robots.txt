@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.governorbarbour.com/sitemap.xml
+Sitemap: https://www.governorbarbour.com/sitemap.xml.gz
