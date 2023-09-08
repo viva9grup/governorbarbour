@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.governorbarbour.com/sitemap.xml
-Sitemap: https://www.governorbarbour.com/sitemap.xml.gz
+Sitemap: https://viva99-n6hkl.ondigitalocean.app/sitemap.xml
