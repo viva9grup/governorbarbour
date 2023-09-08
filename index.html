@@ -47,6 +47,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" type="text/css" />
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+	<script async src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.mjs" custom-element="amp-install-serviceworker" type="module" crossorigin="anonymous">
 	<meta name="google-site-verification" content="5C0-FetawEeKiOHLLjJCWgWdA76rd1XO3uFj-dFSk0A" />
     <style amp-boilerplate>
         body {
@@ -1353,11 +1354,10 @@
 </head>
 
 <body>
-<script type='text/javascript'>
- if('serviceWorker' in navigator) {
-   navigator.serviceWorker.register('/sw.js');
- };
-</script>
+  <amp-install-serviceworker
+    src="/sw.js"
+    layout="nodisplay">
+  </amp-install-serviceworker>
     <div class="header-mobile">
         <div class="mobile-logo">
             <a href="https://viva99-n6hkl.ondigitalocean.app/">
